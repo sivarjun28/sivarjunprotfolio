@@ -1,139 +1,141 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Arjun Portfolio Website</title>
-	<!---custom css link---->
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-
-	<link rel="stylesheet"href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arjun Portfolio Website</title>
+    <!-- Custom CSS Link -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 </head>
+
 <body>
-	<!------Header Section------>
-	<header>
-		<a href="#" class="logo">Devlo<span>pe</span>r..</a>
-		<ul class="navlist">
-			<li><a href="#home" class="active">Home</a></li>
-			<li><a href="#about">About Me</a></li>
-			<li><a href="#Skills">Skills</a></li>
-			<li><a href="#Projects" id="projects-link">Projects</a></li>
-			<li><a href="#contact">Contact</a></li>
-		</ul>
-		<div class="bx bx-menu" id="menu-icon"></div>
-	</header>
+    <!-- Header Section -->
+    <header>
+        <a href="#" class="logo">Devlo<span>pe</span>r..</a>
+        <ul class="navlist">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#Skills">Skills</a></li>
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#internship">Internship</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
 
-	<!---------Home Section--------------->
-	<section class="home" id="home">
-		<div class="home-text">
-			<div class="slide">
-				<span class="one">Hello</span>
-				<span class="two">I'm</span>
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="home-text">
+            <div class="slide">
+                <span class="one">Hello</span>
+                <span class="two">I'm</span>
+            </div>
+            <h1>Sivarjun</h1>
+            <h3>Software <span>Developer.</span></h3>
+            <p>As a software developer, I am driven by a relentless passion for innovation and a deep understanding of
+                cutting-edge technologies. I specialize in creating robust and intuitive software solutions that redefine
+                user experiences. Explore my portfolio to see how I design and develop software applications that set
+                new standards in the digital landscape.</p>
+            <div class="button">
+                <a href="#about" class="btn">About Me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="img/myimage.jpg" alt="My Image">
+        </div>
+        <div class="about-text">
+            <h2>About <span>Me</span></h2>
+            <h4>Software Developer</h4>
+            <p>I bring a strong passion for crafting innovative solutions using Java. My proficiency includes Servlets,
+                JSON, Hibernate, Spring Boot, and React.js. I excel at creating dynamic user interfaces and robust backend
+                components. I am eager to contribute to impactful projects and learn continuously to deliver exceptional
+                results.</p>
+            <a href="#Skills" class="btn">More About</a>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="Skills" id="Skills">
+        <div class="Skills-text">
+            <h2>Skills <span>& Abilities</span></h2>
+            <p>Proficient in frontend technologies like HTML, CSS, JavaScript, and ReactJS, alongside backend frameworks
+                like Spring Boot, Hibernate, and Servlets. Experienced in Python, Java, and SQL for developing
+                comprehensive applications.</p>
+            <a href="#Projects" class="btn">View Projects</a>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="Projects" id="Projects">
+        <div class="main-text">
+            <h2><span>My </span>Projects</h2>
+        </div>
+        <div class="project-content">
+            <div class="box">
+                <div class="s-icons">
+                    <i class="bx bx-credit-card"></i>
+                </div>
+                <h3><a href="https://github.com/sivarjun28/WareHouse-Management-System" target="_blank" style="text-decoration: none; color: inherit;">Warehouse Management System</a></h3>
+                <p>Developed a robust warehouse management system using Spring Boot, RESTful APIs, and MySQL. Designed
+                    core functionalities for inventory and purchase order management.</p>
+                <a href="https://github.com/sivarjun28/WareHouse-Management-System" target="_blank" class="btn">Read More</a>
+            </div>
+            <div class="box">
+                <div class="s-icons">
+                    <i class="bx bx-mobile"></i>
+                </div>
+                <h3><a href="https://github.com/sivarjun28/fake_profile_detection" target="_blank" style="text-decoration: none; color: inherit;">Fake Accounts Detection</a></h3>
+                <p>Developed an OSN security system using Flask and Python, integrating ML models like Decision Tree,
+                    Random Forest, and CNN to detect fake accounts, enhancing security and user trust.</p>
+                <a href="https://github.com/sivarjun28/fake_profile_detection" target="_blank" class="btn">Read More</a>
+            </div>
+
+			<div class="box">
+				<div class="s-icons">
+					<i class="bx bx-movie"></i>
+				</div>
+				<h3><a href="https://github.com/sivarjun28/movie-api" target="_blank" style="text-decoration: none; color: inherit;">Movie API Project</a></h3>
+				<p>Built a Movie API application using ReactJS and modern JavaScript. Features include real-time movie search, API integration, and a dynamic user interface, showcasing skills in React and API handling.</p>
+				<a href="https://github.com/sivarjun28/movie-api" target="_blank" class="btn">Read More</a>
 			</div>
-			<h1>Sivarjun</h1>
-			<h3>Software <span>Developer.</span></h3>
-			<p>As a software developer, I am driven by a relentless passion for innovation and a deep understanding of cutting-edge technologies. With a wealth of experience and a keen eye for detail, I specialize in creating robust and intuitive software solutions that redefine user experiences. Through my portfolio, I demonstrate my proficiency in designing and developing software applications that not only meet but exceed client expectations, setting new standards in the digital landscape.<br> </p>
-			<div class="button">
-				<a href="#" class="btn">About Me</a>
-			</div>
-		</div>
-	</section>
+        </div>
+    </section>
 
-	<!---------about Section --------------->
-	<section class="about" id="about">
-		<div class="about-img">
-			<img src="img/myimage.jpg">
-		</div>
+    <!-- Resume Section -->
+    <section class="resume" id="resume">
+        <div class="main-text">
+            <h2>My <span>Resume</span></h2>
+            <p>Explore my educational qualifications and work experience through my resume.</p>
+            <a href="https://drive.google.com/file/d/1MjM-LBpz54secNY5vxAF1QgLEjXZ88NG/view?usp=sharing" target="_blank" class="btn">Download Resume</a>
+        </div>
+    </section>
 
-		<div class="about-text">
-			<h2>About <span>Me</span></h2>
-			<h4>Software Developer</h4>
-			<p>As a fresher in software development, I bring a strong passion for crafting innovative solutions using Java. My proficiency includes Servlets, JSON, and Hibernate, allowing me to build robust backend components and optimize database interactions. I also excel in creating dynamic user interfaces with HTML, CSS, and JavaScript.
 
-			In addition to these skills, I have a solid understanding of Spring IOC, Spring MVC, and Spring Boot frameworks, enabling me to develop scalable and efficient applications. I am also familiar with React.js for building interactive frontend experiences.
-		I am dedicated to staying current with industry trends and methodologies, including SDLC (Software Development Life Cycle) practices and Spring Security for ensuring application security.
-			I am eager to collaborate with like-minded professionals to push the boundaries of software development and deliver exceptional user experiences. I am excited about the opportunity to make a meaningful impact in the tech world through continuous learning and innovative problem-solving.
-				</p>
-				<a href="#" class="btn">More About</a>
-		</div>
-	</section>
-	<!--skill and abilities-->
-    <section class = "Skills" id = "Skills">
-		<div class = "Skills-text">
-			<h2>Skills <span>& Abilities</span></h2><br>
-			<p> Proficient in HTML, CSS, JavaScript, ReactJS for frontend development, and Java Servlets, JDBC, Hibernate, Spring (IOC, MVC), Spring Boot, and Spring Security for backend development,
-				I craft visually appealing and interactive websites while developing robust backend components. My coding skills in Python, Java, and SQL enable me to create powerful applications across the stack <br>
-				<a href="#" class="btn">More About</a>
-		</div>
-
-	</section>
-	<!-----------projects Section-------------->
-	<section class="Projects" id="Projects">
-	<div class="main-text">
-		<h2><span>My </span>Projects</h2>
-	</div>
-	<div class="project-content">
-		<div class="box">
-			<div class="s-icons">
-				<i class="bx bx-credit-card"></i>
-
-			</div>
-			<h3>Car management System</h3>
-			<p>Car Management System using Java Servlets & MySQL for CRUD operations on 
-car records. Utilizes Servlets for request handling, JDBC for database interaction & JSP for dynamic web pages, showcasing expertise in Java web dev, DB integration & MVC architecture. </p>
-			<a href="#" class="btn">Read More</a>
-		</div>
-
-		
-
-		<div class="box">
-			<div class="s-icons">
-				<i class="bx bx-mobile"></i>
-			</div>
-			<h3>Fake Accounts Detection</h3>
-			<p>Developed an Online Social Network (OSN) security system Using Flask,
-				HTML, and Python, integrating machine learning with Decision Tree,
-				Random Forest, Logistic Regression, and CNN algorithms to detect fake
-				accounts. This safeguarded user data and combated false information,
-				enhancing OSN security and user trust.</p>
-			<a href="#" class="btn">Read More</a>
-		</div>
-	</div>
-
-</section>
-
-<!------------------Contact section------------>
-<section class="contact" id="contact">
-	<div class="contact-text">
-		<h2>Contact <span>Me!</span></h2>
-		<h4>If you have any hiring in your mind .</h4>
-		<p>I am a web designer actively seeking new opportunities. Please feel free to contact me if you have any hiring needs or job openings</p>
-		<div class="list">
-			<li><a href="#">9515690979</a></li>
-			<li><a href="#">arjunyadav6407@gmail.com</a></li>
-		</div>
-
-		<div class="contact-icons">
-			<a href="#"><i class='bx bxl-facebook'></i></a>
-			<a href="#"><i class='bx bxl-twitter' ></i></a>
-			<a href="#"><i class='bx bxl-instagram-alt' ></i></a>
-		
-		</div>
-
-	</div>
-	<div class="contact-form">
-		<form action="">
-			<input type="name" placeholder="Your Name " required>
-			<input type="email" placeholder="Your Email " required>
-			<input type="number" placeholder="your Mobile Number" required>
-			<textarea name="" id="" cols="35" rows="10" placeholder="How Can I Help You " required></textarea>
-			<input type="submit" value="Send Message" class="submit" required>
-		</form>
-
-	</div>
-</section>
-
-</script>
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="contact-text">
+            <h2>Contact <span>Me!</span></h2>
+            <h4>If you have any hiring needs in mind.</h4>
+            <p>I am actively seeking opportunities. Feel free to reach out!</p>
+            <div class="list">
+                <li><a href="#">9515690979</a></li>
+                <li><a href="#">arjunyadav6407@gmail.com</a></li>
+            </div>
+            <div class="contact-icons">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+            </div>
+        </div>
+    </section>
 </body>
+
 </html>
